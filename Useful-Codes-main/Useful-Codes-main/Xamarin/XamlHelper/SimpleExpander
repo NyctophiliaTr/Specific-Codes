@@ -1,0 +1,31 @@
+xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+
+//on normal using
+<xct:Expander>
+    <xct:Expander.Header>
+        <!--  Header  -->
+        <StackLayout />
+    </xct:Expander.Header>
+    <xct:Expander.Content>
+        <StackLayout>
+            <!--  Content  -->
+         </StackLayout>
+    </xct:Expander.ContentTemplate>
+</xct:Expander>
+
+
+
+//on listView Template
+<xct:Expander>
+    <xct:Expander.Header>
+        <!--  Header  -->
+        <StackLayout />
+    </xct:Expander.Header>
+    <xct:Expander.ContentTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <!--  Data Template  -->
+            </StackLayout>
+        </DataTemplate>
+    </xct:Expander.ContentTemplate>
+</xct:Expander>
